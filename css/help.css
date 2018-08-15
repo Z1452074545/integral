@@ -1,0 +1,39 @@
+.help_title {
+    width: 100%;
+    height: 0.8rem;
+    font-size: 0.38rem;
+    font-weight: 600;
+    line-height: 0.8rem;
+    box-sizing: border-box;
+    padding-left: 0.2rem;
+}
+
+.help_bod {
+    width: 85%;
+    height: 9.5rem;
+    background: #ccc;
+    margin: 0.2rem auto;
+}
+
+.help_img {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.help_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.img_title {
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 1px solid #ccc;
+    font-size: 0.32rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.5rem;
+}

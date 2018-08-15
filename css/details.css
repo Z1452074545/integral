@@ -1,0 +1,50 @@
+.details_cont {
+    width: 95%;
+    margin: 0.3rem auto;
+    background: #f2f2f2;
+    padding-bottom: 0.3rem;
+}
+
+.details_head {
+    width: 90%;
+    height: 3rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #a1a1a1;
+    box-sizing: border-box;
+    padding-top: 0.3rem;
+}
+
+.det_head_item {
+    font-size: 0.34rem;
+    margin-top: 0.2rem;
+}
+
+.details_bod {
+    width: 90%;
+    height: 3rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 0.3rem;
+}
+
+.details_but {
+    width: 90%;
+    height: 0.8rem;
+    margin: 0 auto;
+    margin-top: 0.4rem;
+}
+
+.but_use {
+    font-size: 0.32rem;
+    border-radius: 5px;
+    width: 45%;
+    margin: 0 auto;
+    background: #169bd5;
+    text-align: center;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+
+.but_use a {
+    color: #fff;
+}

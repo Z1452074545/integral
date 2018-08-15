@@ -1,0 +1,50 @@
+.banner {
+    width: 100%;
+    height: 3rem;
+    background: #ccc;
+}
+
+.car_code {
+    position: relative;
+    width: 80%;
+    height: 1rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+}
+
+.car_code input {
+    border: none;
+    outline: 0 none;
+    position: absolute;
+    top: 0.8rem;
+    left: 0;
+    display: blcok;
+    margin-top: -0.8rem !important;
+    width: 100%;
+    height: 1rem;
+    font-size: 0.28rem;
+}
+
+.car_hint {
+    width: 80%;
+    height: 0.7rem;
+    margin: 0 auto;
+    line-height: 0.7rem;
+    font-size: 0.32rem;
+    text-align: right;
+    color: red;
+}
+
+.use_but {
+    width: 40%;
+    height: 0.9rem;
+    background: #169bd5;
+    margin: 0 auto;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.9rem;
+    color: white;
+    border-radius: 5px;
+    margin-top: 0.4rem;
+}

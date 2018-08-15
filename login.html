@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>login</title>
+</head>
+
+<body>
+    <!-- 头部标题 -->
+    <div class="head_title">
+        手机验证码登录
+    </div>
+    <!-- 登录 -->
+    <div class="cont" style="display: block">
+        <div class="cont_login">
+            <div class="phone">
+                <input type="text" placeholder="请输入手机号">
+            </div>
+            <div class="hint"><span style="display: none">请输入正确的电话号码！</span></div>
+            <div class="code">
+                <input type="text" placeholder="输入验证码">
+            </div>
+            <div class="code_but">
+                <input type="button" value="获取验证码">
+            </div>
+            <div class="login_but">
+                登录
+            </div>
+        </div>
+
+    </div>
+    <!-- modai  -->
+    <div class="login_modai" style="display: none">
+        <div class="log_m_title">
+            <div class="m_title">
+                <img src="imags/index.jpg" alt="" srcset="">
+            </div>
+            <div class="m_name">
+                <p>用户名：<span>动动车</span></p>
+            </div>
+            <div class="m_phone">
+                <p>电话号：<span>13523454321</span></p>
+            </div>
+
+        </div>
+
+        <div class="login_quit">
+            退出
+        </div>
+    </div>
+    <!-- 底部导航 -->
+    <div class="tabbar">
+        <div class="get"><a href="get.html">领取</a></div>
+        <div class="use"><a href="use.html">使用</a></div>
+        <div class="login"><a href="javascript:;" class="tabbar_active">登录</a></div>
+    </div>
+    <script src="js/rem.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

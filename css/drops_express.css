@@ -1,0 +1,80 @@
+.drops_cont {
+    font-size: 0.36rem;
+}
+
+.drops_title {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.redeem_code {
+    width: 85%;
+    height: 1rem;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    /* background: #ccc; */
+}
+
+.redeem_code div {
+    float: left;
+}
+
+.code_txt {
+    width: 60%;
+    height: 0.9rem;
+    /* box-sizing: border-box; */
+    border: 1px solid #a9a9a9;
+}
+
+.code_txt input {
+    width: 100%;
+    outline: 0 none;
+    border: none;
+    height: 0.9rem;
+    font-size: 0.32rem;
+}
+
+.code_but {
+    width: 31%;
+    height: 0.9rem;
+    margin-left: 8%;
+    background: palegoldenrod;
+}
+
+.code_but input {
+    font-size: 0.32rem;
+    outline: 0 none;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    height: 0.9rem;
+    background: #169bd5;
+    color: #fff;
+}
+
+.cdkey {
+    width: 85%;
+    height: 0.9rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    /* background: pink; */
+}
+
+.cdkey input {
+    display: block;
+    border: none;
+    outline: 0 none;
+    width: 90%;
+    height: 0.9rem;
+    margin: 0 auto;
+    font-size: 0.38rem;
+}
+
+.help {
+    width: 85%;
+    height: 1rem;
+    line-height: 1rem;
+    margin: 0 auto;
+    text-align: right;
+}
