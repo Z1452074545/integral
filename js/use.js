@@ -1,6 +1,8 @@
 window.onload = function() {
-    var token = JSON.parse(localStorage.getItem("token"));
-    if (token == null) {
+    var local = JSON.parse(localStorage.getItem("local"));
+    // var token = local.token;
+    // console.log(token);
+    if (local == null) {
         window.location.href = "./login.html"
     }
 }
