@@ -24,7 +24,6 @@
             docEl.style.fontSize = 100 * (clientWidth / 720) / rmd + 'px';
             document.body.removeChild(div);
         }
-
     };
     _self.changePage();
     if (!document.addEventListener) return;

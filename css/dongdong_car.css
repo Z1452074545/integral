@@ -48,3 +48,7 @@
     border-radius: 5px;
     margin-top: 0.4rem;
 }
+
+.use_but a {
+    color: white;
+}

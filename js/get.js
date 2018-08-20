@@ -6,7 +6,7 @@ window.onload = function() {
 }
 $(function() {
     $('.get_buts').on('click', function() {
-        var falg = true;
+        var falg = true; // 模拟 请求成功
         if (falg != false) {
             if ($(this).text() == "领取") {
                 $('.get_succeed').show();
@@ -27,6 +27,9 @@ $(function() {
     })
     $('.but_confirm').on('click', function() {
         $('.get_error').hide();
+    })
+    $('.get_more').on('click', function() { //点击更多
+
     })
 
 })

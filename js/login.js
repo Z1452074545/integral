@@ -16,7 +16,7 @@
                 alert("验证码:1234")
                 clearInterval(timer); //这句话至关重要
                 var time = 60;
-                var that = this; //习惯
+                var that = this;
                 timer = setInterval(function() {
                     if (time <= 0) {
                         that.value = "";
