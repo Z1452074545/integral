@@ -1,8 +1,8 @@
 $(function() {
-    $('.code_but input').on('click', function() {
+    $('.code_but').on('click', function() {
         var code_key = $('.code_txt input').val();
         alert(code_key);
-        var flag = true;
+        var flag = false;
         if (flag != true) {
             $('.cdkey input').val("请输入正确的券码!");
             $('.cdkey input').css('color', 'red');

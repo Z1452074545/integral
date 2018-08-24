@@ -1,7 +1,8 @@
 (function() {
     var phone_txt = document.querySelector(".phone input");
     var hint = document.querySelector(".hint span");
-    var code_but = document.querySelector(".code_but input");
+    // var code_but = document.querySelector(".code_but input");
+    var code_but = document.querySelector(".code_but");
     var codes = document.querySelector(".code input");
     var login_but = document.querySelector(".login_but");
     var m_phone = document.querySelector(".m_phone span");
@@ -19,14 +20,14 @@
                 var that = this;
                 timer = setInterval(function() {
                     if (time <= 0) {
-                        that.value = "";
-                        that.value = "点击重新发送";
+                        that.innerHTML = "";
+                        that.innerHTML = "点击重新发送";
                         that.disabled = false;
                         clearInterval(timer)
                     } else {
                         that.disabled = true;
-                        that.value = "";
-                        that.value = "剩余时间" + (time) + "秒";
+                        that.innerHTML = "";
+                        that.innerHTML = "剩余时间" + (time) + "秒";
                         time--;
                     }
                 }, 1000);

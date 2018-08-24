@@ -28,8 +28,13 @@ $(function() {
     $('.but_confirm').on('click', function() {
         $('.get_error').hide();
     })
+    var throttle = 5;
     $('.get_more').on('click', function() { //点击更多
+        if (throttle < 6) {
+            alert("没有啦");
+        } else {
+            alert("加载更多")
+        }
 
     })
-
 })

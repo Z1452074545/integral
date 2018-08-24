@@ -38,16 +38,34 @@
     margin-left: 0;
 }
 
-.code_but {
+
+/* .code_but {
     position: absolute;
-    top: 3.05rem;
+    top: 2.85rem;
     left: 4rem;
 }
 
 .code_but input {
+    appearance: none !important;
+    border-radius: 0px;
     width: 2.5rem;
     height: 0.85rem;
     font-size: 0.36rem;
+} */
+
+.code_but {
+    position: absolute;
+    top: 3.33rem;
+    left: 4rem;
+    border-radius: 5px;
+    width: 2.5rem;
+    height: 0.85rem;
+    font-size: 0.3rem;
+    background: #f3f3f3;
+    text-align: center;
+    line-height: 0.85rem;
+    border: 1px solid #ccc;
+    color: #333;
 }
 
 .hint {
@@ -66,8 +84,9 @@
     text-align: center;
     line-height: 0.9rem;
     background: #ccc;
-    border-radius: 5px;
+    border-radius: 2px;
     margin-top: 1rem;
+    border-radius: 5px;
 }
 
 .login_but_active {
@@ -128,7 +147,7 @@
     color: #fff;
     border-radius: 5px;
     position: absolute;
-    top: 9rem;
+    top: 8rem;
     left: 50%;
     margin-left: -2.9rem;
 }
