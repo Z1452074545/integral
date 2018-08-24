@@ -1,7 +1,6 @@
 (function() {
     var phone_txt = document.querySelector(".phone input");
     var hint = document.querySelector(".hint span");
-    // var code_but = document.querySelector(".code_but input");
     var code_but = document.querySelector(".code_but");
     var codes = document.querySelector(".code input");
     var login_but = document.querySelector(".login_but");
@@ -13,26 +12,25 @@
             return false;
         } else {
             var timer = null;
-            code_but.onclick = function() {
+            code_but.onclick = function timing() {
                 alert("验证码:1234")
                 clearInterval(timer); //这句话至关重要
-                var time = 60;
+                var time = 6;
                 var that = this;
                 timer = setInterval(function() {
                     if (time <= 0) {
+                        code_but.onclick = timing;
                         that.innerHTML = "";
                         that.innerHTML = "点击重新发送";
-                        that.disabled = false;
-                        clearInterval(timer)
+                        clearInterval(timer);
+
                     } else {
-                        that.disabled = true;
+                        code_but.onclick = null;
                         that.innerHTML = "";
                         that.innerHTML = "剩余时间" + (time) + "秒";
                         time--;
                     }
                 }, 1000);
-
-
             }
         }
     }
