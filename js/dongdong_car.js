@@ -10,7 +10,5 @@ $(function() {
                 window.location.href = "./get.html";
             });
         }
-
     })
-
 })

@@ -1,0 +1,127 @@
+body {
+    background: #f3f3f3;
+}
+
+.coupon div {
+    margin-top: 0.8rem;
+    float: left;
+    width: 40%;
+    height: 1.5rem;
+    margin-left: 6.5%;
+    border: 1px solid #ccc;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.drops_express a img {
+    width: 100%;
+    height: 100%;
+}
+
+.dongdong_car a img {
+    width: 100%;
+    height: 100%;
+}
+
+.tabbar {
+    background: #f8f7fc;
+    border-top: 1px solid #ccc;
+}
+
+.tabbar div {
+    width: 50%;
+}
+
+.tabbar div a i {
+    font-size: 0.5rem;
+    /* color: #21a9fd; */
+    color: #ccc;
+}
+
+.select {
+    color: #21a9fd !important;
+}
+
+.explain {
+    position: absolute;
+    bottom: 1.5rem;
+    font-size: 0.36rem !important;
+    /* margin-top: 7rem; */
+    width: 100%;
+    height: 1rem;
+    text-align: center;
+    padding-bottom: /* background: red; */
+}
+
+.explain a {
+    color: #138cdd;
+}
+
+.inquire {
+    font-size: 0.30rem;
+    width: 96%;
+    height: 0.8rem;
+    background: #59c1de;
+    margin: 0.2rem auto;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.ticket_cont {
+    width: 98%;
+    /* height: 7rem; */
+    background: #fff;
+    margin: 0 auto;
+    padding-bottom: 0.2rem;
+}
+
+.ticket_title {
+    /* background: red; */
+    height: 1rem;
+    box-sizing: border-box;
+    line-height: 1rem;
+    padding-left: 0.1rem;
+    font-size: 0.36rem;
+}
+
+.ticket_face {
+    width: 98%;
+    /* height: 2rem; */
+    margin: 0 auto;
+    background: #f3f3f3;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
+.ticket_item {
+    width: 30%;
+    height: 1.5rem;
+    margin: 0.1rem 0.11rem;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.ticket_item_active {
+    border: 1px solid #169bd5;
+}
+
+.ticket_item img {
+    width: 100%;
+    height: 100%;
+}
+
+.ticket_but {
+    width: 50%;
+    margin: 1rem auto;
+    height: 0.8rem;
+    background: #169bd5;
+    font-size: 0.32rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.8rem;
+    border-radius: 5px;
+}

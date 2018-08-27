@@ -72,7 +72,6 @@
                 cont.style.display = "block";
             }
         }
-
     }
     phone_txt.onfocus = function() {
         hint.style.display = "none";
