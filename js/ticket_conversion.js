@@ -14,6 +14,7 @@ $(function() {
     // 查询积分
     $('.inquire').on('click', function() {
             console.log('发送短信,查询积分');
+
         })
         // 选择面值兑换
     $('.ticket_item').on('click', function() {

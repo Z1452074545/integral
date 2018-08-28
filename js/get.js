@@ -77,6 +77,7 @@ $(function() {
             if (throttle < 6) {
                 alert("没有啦");
                 dates();
+
             } else {
                 alert("加载更多")
             }
